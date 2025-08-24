@@ -43,12 +43,12 @@ START
 -Create a virtual environment (optional but recommended):
      
     ```bash
-  python -m venv venv
-  source venv/bin/activate
+    python -m venv venv
+    source venv/bin/activate
 
 -Install the necessary packages:
     ```bash
-   pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 3. **Set up environment variables**:
