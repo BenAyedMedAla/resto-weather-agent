@@ -88,7 +88,7 @@ graph = entry_builder.compile()
 
 # Invoking the graph
 result = graph.invoke({
-    "messages": ["Tell me about the best caffees for date night in paris for next saturday"]
+    "messages": ["Tell me about the best restaurants for breakfast in barcelone for next saturday"]
 })
 
 print("\nAgent:\n" + result.get("recommendation",""))
