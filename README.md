@@ -10,7 +10,12 @@ This project coordinates specialized agents—one for restaurants, one for weath
 - Both subgraphs consume the **query analyzer** output; then a **recommendation analyzer** combines results to produce **GO / STAY-IN** plus top picks.
 
 START
+
+
 └─> query_analyzer ─┬─> weather_graph ─┐
+
+
+
 └─> restaurant_graph ─┴─> recommendation_analyzer ─> END
 
 
